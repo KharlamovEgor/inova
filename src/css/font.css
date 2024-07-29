@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Brotesk";
+  font-weight: 600;
+  src: url("../fonts/Brotesk (Trial) Semibold.otf");
+}
+
+@font-face {
+  font-family: "Steppe";
+  src: url("../fonts/SteppeTrial-Medium.woff2");
+  font-weight: 500;
+}
