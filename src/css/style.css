@@ -622,12 +622,13 @@ body {
 
 @media (max-width: 720px) {
   .service .container::before {
-    left: -17.5em;
+    display: none;
   }
 
   .service .container::after {
-    right: -15em;
-    top: -10em;
+    right: -18em;
+    top: -25em;
+    width: 20em;
   }
 }
 
