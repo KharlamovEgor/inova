@@ -2,7 +2,8 @@ import Glide from "@glidejs/glide";
 
 const glide = new Glide(".glide", {
   perView: 1,
-  dragThreshold: 0,
+  dragThreshold: false,
+  swipeThreshold: false,
 }).mount();
 
 const controls = document.querySelectorAll(".service__variants");
