@@ -12,6 +12,10 @@ controls.forEach((control) => {
   Array.from(control.children).forEach((variant, index) => {
     variant.addEventListener("click", () => {
       glide.go(`=${index}`);
+      variant.classList.add("active");
+      Array.from(control.children).forEach((control) =>
+        control.classList.remove("active"),
+      );
     });
   });
 });
